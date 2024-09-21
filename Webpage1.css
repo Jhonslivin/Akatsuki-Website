@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  nav {
+    height: 80px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 24px;
+    font-size: 24px ;
+  }
+  
+  nav a:hover {
+    color: #ff0000;
+  }
+  
+  .hero {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/854/698/548/naruto-shippuuden-akatsuki-wallpaper-preview.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+
+  }
+
+  
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 48px calc((100vw - 1300px) / 2);
+  }
+  
+  .column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ffffff;
+    padding: 0px 32px;
+  }
+  
+  .column-left h1 {
+    margin-bottom: 16px;
+    font-size: 48px;
+  }
+  
+  .column-left p {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  
+  button {
+    padding: 16px 48px;
+    font-size: 16px;
+    border: none;
+    color: #000000;
+    background: #f83434;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  button:hover {
+    background-image: url("https://media1.tenor.com/m/lbOXORjpECwAAAAC/anime-naruto.gif");
+    color: #000;
+  }
+  
+  .background-image{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/908/299/812/naruto-shippuden-akatsuki-grayscale-pein-rinnegan-anime-naruto-hd-art-wallpaper-preview.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
